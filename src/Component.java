@@ -3,10 +3,12 @@ import java.util.List;
 public class Component {
     String name;
     List<String> dropFrom;
+    String rarity;
 
-    public Component(String name, List<String> dropFrom) {
+    public Component(String name,String rarity, List<String> dropFrom) {
         this.name = name;
         this.dropFrom = dropFrom;
+        this.rarity = rarity;
     }
 
     public String getName() {
@@ -15,5 +17,9 @@ public class Component {
 
     public List<String> getDropFrom() {
         return dropFrom;
+    }
+
+    public String getRarity() {
+        return rarity;
     }
 }

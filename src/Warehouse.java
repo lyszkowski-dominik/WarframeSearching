@@ -32,6 +32,41 @@ public class Warehouse {
         Component c22 = new Component("Baza Prime Lufa","Nieprzeciętny",new ArrayList<>(Arrays.asList("Neo N15","Axi Z1","Lith S10","Lith W2")));
         Component c23 = new Component("Baza Prime Korpus","Powszechny",new ArrayList<>(Arrays.asList("Meso C6","Meso P2","Axi W2","Meso E4","Neo R3")));
         Component c24 = new Component("Baza Prime Kolba","Rzadki",new ArrayList<>(Arrays.asList("Neo B7","Axi B3")));
+
+        Component c25 = new Component("Hikou Prime Schemat","Powszechny", new ArrayList<>(Arrays.asList("Axi S8","Lith S1","Meso N2","Neo R1")));
+        Component c26 = new Component("Hikou Prime Kieszeń","Powszechny",new ArrayList<>(Arrays.asList("Lith C7","Meso N6","Axi K1","Axi V2")));
+        Component c27 = new Component("Hikou Prime Gwiazdki","Powszechny",new ArrayList<>(Arrays.asList("Axi V10","Lith F2","Neo N1","Axi S3")));
+
+        Component c28 = new Component("Valkyr Prime Schemat","Powszechny",new ArrayList<>(Arrays.asList("Lith C7","Lith A2","Lith N3","Lith T2","Meso N8","Meso S3","Meso S6","Neo K1","Axi V7","Axi V9")));
+        Component c29 = new Component("Valkyr Prime Neoruooptyka","Nieprzeciętny",new ArrayList<>(Arrays.asList("Meso N11","Lith C5","Lith S6","Lith T1","Meso C2","Meso D2","Meso N8","Meso V4","Neo N7")));
+        Component c30 = new Component("Valkyr Prime Powłoka","Rzadki",new ArrayList<>(Arrays.asList("Neo V9","Lith V6","Neo V7","Axi V5","Axi V6")));
+        Component c31 = new Component("Valkyr Prime Systemy","Rzadki, Nieprzecięnty (Axi V10,Axi V9)",new ArrayList<>(Arrays.asList("Axi V10","Lith V3","Lith V5","Meso V3","Axi V9")));
+
+        Component c32 = new Component("Nyx Prime Schemat","Powszechny",new ArrayList<>(Arrays.asList("Neo V9","Lith B4","Lith S2","Neo V1")));
+        Component c33 = new Component("Nyx Prime Neurooptyka","Rzadki",new ArrayList<>(Arrays.asList("Meso N11","Meso N1","Meso N6")));
+        Component c34 = new Component("Nyx Prime Powłoka","Nieprzeciętny, Rzadki (Neo N1)",new ArrayList<>(Arrays.asList("Axi S8","Neo N1","Neo R1")));
+        Component c35 = new Component("Nyx Prime Systemy","Nieprzeciętny", new ArrayList<>(Arrays.asList("Lith C7","Neo S2","Axi S3")));
+
+        Component c36 = new Component("Scindo Prime Schemat","Nieprzeciętny",new ArrayList<>(Arrays.asList("Lith C7","Lith B4","Lith F1")));
+        Component c37 = new Component("Scindo Prime Ostrze","Rzadki",new ArrayList<>(Arrays.asList("Axi S8","Axi S1","Axi S3")));
+        Component c38 = new Component("Scindo Prime Rękojeść","Nieprzeciętny, Powszechny (Meso N11)",new ArrayList<>(Arrays.asList("Meso N11","Meso C1","Meso N6")));
+
+        Component c39 = new Component("Cernos Prime Schemat","Nieprzeciętny",new ArrayList<>(Arrays.asList("Neo V9","Lith A2","Lith Z1","Neo S13","Neo V7","Axi B1","Axi V4")));
+        Component c40 = new Component("Cernos Prime Majdan","Powszechny",new ArrayList<>(Arrays.asList("Axi S8","Lith V6","Meso V5","Neo V4","Neo V6","Axi H3","Axi K3","Axi S5")));
+        Component c41 = new Component("Cernos Prime Dolne Ramię","Rzadki",new ArrayList<>(Arrays.asList("Lith C7","Lith C2","Lith C5","Meso C3","Axi C1","Axi C2")));
+        Component c42 = new Component("Cernos Prime Cięciwa","Nieprzeciętny, Powszechny (Axi V10)",new ArrayList<>(Arrays.asList("Axi V10","Lith B3","Meso N8","Meso O1","Meso S6","Neo A1","Axi A3","Axi K3")));
+        Component c43 = new Component("Cernos Prime Góre Ramię","Powszechny",new ArrayList<>(Arrays.asList("Meso N11","Lith V3","Meso C2","Meso K1","Meso N8","Meso O2","Meso S7","Neo N6","Axi N4")));
+
+        Component c44 = new Component("Bronco Prime Schemat","Powszechny",new ArrayList<>(Arrays.asList("Lith D4","Lith H1","Lith M6","Lith N1","Lith N4","Lith P4","Lith S1","Lith V8","Meso C2","Meso E2","Meso N2","Meso N3","Meso S2","Meso V5","Neo M1","Neo S9","Axi N2","Axi P2","Axi P3","Axi S1")));
+        Component c45 = new Component("Bronco Prime Lufa","Nieprzeciętny",new ArrayList<>(Arrays.asList("Axi W2","Meso N10","Meso R3","Neo M2","Neo V1","Axi E2","Axi N3")));
+        Component c46 = new Component("Bronco Prime Korpus","Powszechny",new ArrayList<>(Arrays.asList("Lith P5","Neo N14","Lith C2","Meso B4","Meso E3","Meso F1","Meso P1","Meso S8","Neo B1","Neo M3","Neo N6","Neo S8","Neo S11","Neo V4","Neo Z3","Axi S1","Axi W1")));
+
+        Component c47 = new Component("Orthos Prime Schemat","Nieprzeciętny",new ArrayList<>(Arrays.asList("Axi A13","Lith B6","Lith B7","Lith H2","Lith S8","Lith S10","Meso B1","Axi B2","Axi C1","Axi M1","Axi V3")));
+        Component c48 = new Component("Orthos Prime Ostrze","Nieprzeciętny",new ArrayList<>(Arrays.asList("Meso I1","Lith B2","Lith B3","Lith B5","Lith C4","Meso D1")));
+        Component c49 = new Component("Orthos Prime Rękojeść","Powszechny",new ArrayList<>(Arrays.asList("Lith D4","Meso K3","Lith A3","Meso A1","Meso B1","Meso D1","Meso D4","Meso G2","Meso K1","Meso K2","Meso N4","Neo H1","Neo Z1","Axi A6","Axi K2","Axi L2")));
+
+
+
     public Warehouse () {
 
         componentList.add(c1);
@@ -58,6 +93,31 @@ public class Warehouse {
         componentList.add(c22);
         componentList.add(c23);
         componentList.add(c24);
+        componentList.add(c25);
+        componentList.add(c26);
+        componentList.add(c27);
+        componentList.add(c28);
+        componentList.add(c29);
+        componentList.add(c30);
+        componentList.add(c31);
+        componentList.add(c32);
+        componentList.add(c33);
+        componentList.add(c34);
+        componentList.add(c35);
+        componentList.add(c36);
+        componentList.add(c37);
+        componentList.add(c38);
+        componentList.add(c39);
+        componentList.add(c40);
+        componentList.add(c41);
+        componentList.add(c42);
+        componentList.add(c43);
+        componentList.add(c44);
+        componentList.add(c45);
+        componentList.add(c46);
+        componentList.add(c47);
+        componentList.add(c48);
+        componentList.add(c49);
     }
 
     public List<Component> getComponentList() {

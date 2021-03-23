@@ -17,6 +17,7 @@ public class Search {
             String s = warehouse.componentList.get(i).getName();
             if (s.equals(searchTerm))
                 filter = (warehouse.componentList.get(i).getDropFrom());
+            // Przy trafieniu, zapisuje do zmiennej globalnej String Rzadkość występowania danego komponentu
             rarity = warehouse.componentList.get(i).getRarity();
         }
 
@@ -24,7 +25,7 @@ public class Search {
         Collection<String> listOne = filter;
         Collection<String> listTwo = nowAvailable;
 
-        // Metoda zostawia w listTwo tylko obiekty które występują w listOne
+        // Metoda zostawia w listTwo tylko obiekty które występują w listOne // odsiewa z wszystkich reliktów tylko te które obecnie są dostępne
         listTwo.retainAll(listOne);
         if(listTwo.size() != 0) {
             System.out.println("Szukany komponent wypada z: " + filter + "\nObecnie dostępne relikty: " + listTwo + "\nRzadkość komponentu: " + rarity );

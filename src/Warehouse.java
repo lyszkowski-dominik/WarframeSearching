@@ -65,6 +65,13 @@ public class Warehouse {
         Component c48 = new Component("Orthos Prime Ostrze","Nieprzeciętny",new ArrayList<>(Arrays.asList("Meso I1","Lith B2","Lith B3","Lith B5","Lith C4","Meso D1")));
         Component c49 = new Component("Orthos Prime Rękojeść","Powszechny",new ArrayList<>(Arrays.asList("Lith D4","Meso K3","Lith A3","Meso A1","Meso B1","Meso D1","Meso D4","Meso G2","Meso K1","Meso K2","Meso N4","Neo H1","Neo Z1","Axi A6","Axi K2","Axi L2")));
 
+        Component c50 = new Component("Ninkondi Prime Schemat","Powszechny",new ArrayList<>(Arrays.asList("Meso K3","Meso T4","Meso L1","Neo P1","Neo R2","Neo S14","Axi G3")));
+        Component c51 = new Component("Ninkondi Prime Łańcuch","Nieprzeciętny",new ArrayList<>(Arrays.asList("Lith D4","Lith D1","Lith D3","Neo R3","Neo R4","Axi P1")));
+        Component c52 = new Component("Ninkondi Prime Rękojeść","Rzadki",new ArrayList<>(Arrays.asList("Neo N14","Lith N4","Lith N5","Meso N7","Meso N9","Meso N10")));
+
+        Component c53 = new Component("Zakti Prime Schemat","Rzadki",new ArrayList<>(Arrays.asList("Axi Z1")));
+        Component c54 = new Component("Zakti Prime Lufa","Nieprzeciętny",new ArrayList<>(Arrays.asList("Lith D4","Neo E2")));
+        Component c55 = new Component("Zakti Prime Korpus","Powszechny",new ArrayList<>(Arrays.asList("Lith T4","Lith T6")));
 
 
     public Warehouse () {
@@ -118,6 +125,12 @@ public class Warehouse {
         componentList.add(c47);
         componentList.add(c48);
         componentList.add(c49);
+        componentList.add(c50);
+        componentList.add(c51);
+        componentList.add(c52);
+        componentList.add(c53);
+        componentList.add(c54);
+        componentList.add(c55);
     }
 
     public List<Component> getComponentList() {
